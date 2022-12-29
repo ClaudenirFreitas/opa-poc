@@ -1,6 +1,12 @@
-package rules
+package main
 
 import future.keywords
+import data.policy.http.method_is_get
+import data.policy.http.method_is_post
+import data.policy.http.path_is_car
+import data.policy.http.path_is_cars
+import data.policy.role.user_is_employee
+import data.policy.role.user_is_manager
 
 default allow = false
 

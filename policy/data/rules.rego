@@ -1,4 +1,4 @@
-package rules
+package policy.data
 
 users = {
 	"alice": {"manager": "charlie", "title": "salesperson"},

@@ -1,6 +1,7 @@
-package rules
+package test
 
 import future.keywords
+import data.main.allow
 
 test_cars_read_positive if {
 	input_data = {

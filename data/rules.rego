@@ -1,4 +1,4 @@
-package policy.data
+package repository
 
 users = {
 	"alice": {"manager": "charlie", "title": "salesperson"},

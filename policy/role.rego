@@ -1,7 +1,7 @@
 package policy.role
 
 import future.keywords
-import data.policy.data.users
+import data.repository.users
 
 user_is_employee(user) if {
 	users[user]

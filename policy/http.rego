@@ -6,25 +6,24 @@ import future.keywords
 # methods #
 ###########
 method_is_get(method) if {
-	upper(method) == "GET"
+	method == "GET"
 }
 
 method_is_post(method) if {
-	upper(method) == "POST"
+	method == "POST"
 }
 
 method_is_put(method) if {
-	upper(method) == "PUT"
+	method == "PUT"
 }
 
 method_is_delete(method) if {
-	upper(method) == "DELETE"
+	method == "DELETE"
 }
 
 ######### 
 # paths #
 #########
-
 path_is_cars(path) if {
 	path == ["cars"]
 }
